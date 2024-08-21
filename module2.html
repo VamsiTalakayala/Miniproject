@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 4px;
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Introduction</h1>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>History of HTML</h2>
+            <p>HTML, or Hypertext Markup Language, was created by Tim Berners-Lee in 1991. It is the standard markup language used to create web pages. Over the years, HTML has evolved significantly, with major versions like HTML4 (introduced in 1997) and HTML5 (introduced in 2014), each adding new features and capabilities to keep up with the growing demands of web development.</p>
+        </section>
+
+        <section>
+            <h2>Getting Started: Your First HTML Page</h2>
+            <p>To create your first HTML page, all you need is a text editor (like Notepad on Windows, TextEdit on macOS, or any code editor like Visual Studio Code) and a web browser (like Chrome, Firefox, or Edge).</p>
+            <p>Follow these steps:</p>
+            <ol>
+                <li>Open your text editor.</li>
+                <li>Type the following HTML code:</li>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My First HTML Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                <li>Save the file with a <code>.html</code> extension, for example, <code>index.html</code>.</li>
+                <li>Open the file in your web browser to see your first HTML page in action.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>What are HTML Tags and Attributes?</h2>
+            <p>HTML tags are the building blocks of HTML. They define the structure and content of a web page. Tags are enclosed in angle brackets <code>&lt;&gt;</code> and usually come in pairs: an opening tag and a closing tag. For example, <code>&lt;p&gt;</code> is an opening tag for a paragraph, and <code>&lt;/p&gt;</code> is the corresponding closing tag.</p>
+            <p>HTML attributes provide additional information about an element. They are always included within the opening tag and are written as name-value pairs. For example:</p>
+            <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+            <p>In this example, <code>href</code> is an attribute that specifies the URL of the link.</p>
+        </section>
+
+        <section>
+            <h2>HTML Tag vs. Element</h2>
+            <p>An HTML <strong>tag</strong> is the markup used to define the start and end of an HTML element. An HTML <strong>element</strong> consists of the start tag, its content, and the end tag. For example, in the code below:</p>
+            <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+            <p>- <code>&lt;p&gt;</code> is the opening tag.</p>
+            <p>- <code>This is a paragraph.</code> is the content.</p>
+            <p>- <code>&lt;/p&gt;</code> is the closing tag.</p>
+            <p>Together, they form a complete <strong>element</strong>.</p>
+        </section>
+
+        <section>
+            <h2>HTML Attributes</h2>
+            <p>HTML attributes are used to provide additional information about an element. They are written within the opening tag of an element and usually come in name/value pairs like <code>name="value"</code>. Some common attributes include:</p>
+            <ul>
+                <li><strong>id:</strong> Specifies a unique id for an element.</li>
+                <li><strong>class:</strong> Specifies one or more class names for an element (used for CSS styling).</li>
+                <li><strong>src:</strong> Specifies the source file of an image.</li>
+                <li><strong>alt:</strong> Provides alternative text for an image if it cannot be displayed.</li>
+                <li><strong>href:</strong> Specifies the URL of a link.</li>
+            </ul>
+            <p>For example, an image element might look like this:</p>
+            <pre><code>&lt;img src="image.jpg" alt="A description of the image"&gt;</code></pre>
+        </section>
+
+    </div>
+
+</body>
+</html>

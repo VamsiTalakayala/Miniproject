@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jane Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A demonstration of XHTML with meta tags, deprecated HTML tags, and attributes." />
+    <meta name="keywords" content="HTML, XHTML, deprecated tags, meta tags" />
+    <title>XHTML and Deprecated HTML Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .centered {
+            text-align: center;
+        }
+        .highlighted {
+            color: red;
+        }
+        .scrolling-text {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+        }
+        @keyframes marquee {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="centered">XHTML and Deprecated HTML Tags Example</h1>
+
+    <p>This document demonstrates:</p>
+    <ul>
+        <li>HTML meta tags</li>
+        <li>XHTML structure</li>
+        <li>Deprecated HTML tags and attributes</li>
+    </ul>
+
+    <h2>Modern HTML Practice</h2>
+    <p class="highlighted">This text is styled using modern CSS techniques.</p>
+
+    <h2>Deprecated HTML Tags</h2>
+    
+    <!-- Deprecated <font> tag example -->
+    <p><font color="blue">This text is styled with the deprecated <code>&lt;font&gt;</code> tag.</font></p>
+    
+    <!-- Deprecated <center> tag example -->
+    <p><center>This text is centered using the deprecated <code>&lt;center&gt;</code> tag.</center></p>
+    
+    <!-- Deprecated <marquee> tag example -->
+    <p><marquee>This text is scrolling using the deprecated <code>&lt;marquee&gt;</code> tag.</marquee></p>
+    
+    <h2>Modern Alternatives</h2>
+    <p class="scrolling-text">This text is scrolling from right to left using modern CSS animations.</p>
+
+    <p>For more information on XHTML, refer to the <a href="https://www.w3.org/TR/xhtml1/" target="_blank">XHTML 1.0 Specification</a>. For modern HTML practices, see the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/HTML5" target="_blank">HTML5 Specification</a>.</p>
+</body>
+</html>

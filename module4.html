@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Grouping with Div and Span</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        .highlight {
+            color: #d63384;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Grouping with Div and Span</h1>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Using the <code>&lt;div&gt;</code> Tag</h2>
+            <p>The <code>&lt;div&gt;</code> tag is used to group block-level elements together. It is often used to create sections of content that can be styled or positioned using CSS.</p>
+            <p>Example:</p>
+            <div class="box">
+                <p>This is a paragraph inside a <code>&lt;div&gt;</code> element.</p>
+                <p>Another paragraph inside the same <code>&lt;div&gt;</code> element.</p>
+            </div>
+            <pre><code>&lt;div class="box"&gt;
+    &lt;p&gt;This is a paragraph inside a &lt;div&gt; element.&lt;/p&gt;
+    &lt;p&gt;Another paragraph inside the same &lt;div&gt; element.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </section>
+
+        <section>
+            <h2>Using the <code>&lt;span&gt;</code> Tag</h2>
+            <p>The <code>&lt;span&gt;</code> tag is used to group inline elements or text for styling purposes. It does not introduce any block-level separation, so it’s typically used for styling parts of a text.</p>
+            <p>Example:</p>
+            <p>This is a text with a <span class="highlight">highlighted</span> word using the <code>&lt;span&gt;</code> tag.</p>
+            <pre><code>&lt;p&gt;This is a text with a &lt;span class="highlight"&gt;highlighted&lt;/span&gt; word using the &lt;span&gt; tag.&lt;/p&gt;</code></pre>
+        </section>
+
+        <section>
+            <h2>Combining <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code></h2>
+            <p>The <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> tags can be used together to structure and style content effectively.</p>
+            <div class="box">
+                <p>This is a paragraph with a <span class="highlight">highlighted</span> word inside a <code>&lt;div&gt;</code> element.</p>
+            </div>
+            <pre><code>&lt;div class="box"&gt;
+    &lt;p&gt;This is a paragraph with a &lt;span class="highlight"&gt;highlighted&lt;/span&gt; word inside a &lt;div&gt; element.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </section>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basic Formatting Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 4px;
+            color: #d63384;
+        }
+        .colored-text {
+            color: #d63384;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Basic Formatting Tags</h1>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>HTML Basic Tags</h2>
+            <p>HTML basic tags are the essential building blocks for creating a webpage. Here are some commonly used tags:</p>
+            <ul>
+                <li><code>&lt;h1&gt; to &lt;h6&gt;</code>: Heading tags, with <code>&lt;h1&gt;</code> being the highest level and <code>&lt;h6&gt;</code> the lowest.</li>
+                <li><code>&lt;p&gt;</code>: Paragraph tag, used for defining blocks of text.</li>
+                <li><code>&lt;br&gt;</code>: Line break tag, used to insert a line break within text.</li>
+                <li><code>&lt;hr&gt;</code>: Horizontal rule tag, used to insert a horizontal line.</li>
+                <li><code>&lt;a&gt;</code>: Anchor tag, used to create hyperlinks.</li>
+                <li><code>&lt;img&gt;</code>: Image tag, used to embed images in a webpage.</li>
+            </ul>
+            <p>Example:</p>
+            <pre><code>&lt;h1&gt;This is a Heading&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;a href="https://www.example.com"&gt;This is a link&lt;/a&gt;</code></pre>
+        </section>
+
+        <section>
+            <h2>HTML Formatting Tags</h2>
+            <p>HTML formatting tags are used to emphasize text or change its appearance. Some of the commonly used formatting tags are:</p>
+            <ul>
+                <li><code>&lt;b&gt;</code>: Makes the text bold.</li>
+                <li><code>&lt;strong&gt;</code>: Emphasizes the text with strong importance (typically displayed in bold).</li>
+                <li><code>&lt;i&gt;</code>: Italicizes the text.</li>
+                <li><code>&lt;em&gt;</code>: Emphasizes the text with a stress (typically displayed in italics).</li>
+                <li><code>&lt;u&gt;</code>: Underlines the text.</li>
+                <li><code>&lt;s&gt;</code>: Strikes through the text.</li>
+                <li><code>&lt;sup&gt;</code>: Makes text appear as superscript.</li>
+                <li><code>&lt;sub&gt;</code>: Makes text appear as subscript.</li>
+                <li><code>&lt;mark&gt;</code>: Highlights the text.</li>
+                <li><code>&lt;small&gt;</code>: Reduces the text size.</li>
+                <li><code>&lt;blockquote&gt;</code>: For quoting blocks of text.</li>
+            </ul>
+            <p>Example:</p>
+            <pre><code>&lt;p&gt;This is &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, and &lt;u&gt;underlined&lt;/u&gt; text.&lt;/p&gt;</code></pre>
+        </section>
+
+        <section>
+            <h2>HTML Color Coding</h2>
+            <p>HTML allows you to set text and background colors using the <code>style</code> attribute, CSS classes, or inline styles. You can specify colors by name, hex code, RGB values, or HSL values.</p>
+            <p>Here are a few examples:</p>
+            <ul>
+                <li><code>color: red;</code>: Sets the text color to red.</li>
+                <li><code>color: #ff0000;</code>: Sets the text color using a hex code.</li>
+                <li><code>color: rgb(255, 0, 0);</code>: Sets the text color using RGB values.</li>
+                <li><code>background-color: yellow;</code>: Sets the background color to yellow.</li>
+            </ul>
+            <p>Example:</p>
+            <pre><code>&lt;p style="color: blue;"&gt;This text is blue.&lt;/p&gt;
+&lt;p style="color: #ff6347;"&gt;This text is tomato color.&lt;/p&gt;
+&lt;p style="background-color: yellow;"&gt;This text has a yellow background.&lt;/p&gt;</code></pre>
+            <p>In the example below, the class <code>.colored-text</code> is used to style text:</p>
+            <pre><code>&lt;p class="colored-text"&gt;This text is styled with a CSS class.&lt;/p&gt;</code></pre>
+            <p class="colored-text">This text is styled with a CSS class.</p>
+        </section>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Example</title>
+</head>
+<body>
+    <h1>Clickable Areas on Image</h1>
+    <img src="map-image.jpg" alt="Map Image" usemap="#image-map">
+    <map name="image-map">
+        <area shape="rect" coords="34,44,270,350" href="https://example.com/page1" alt="Link to Page 1">
+        <area shape="circle" coords="130,136,60" href="https://example.com/page2" alt="Link to Page 2">
+        <area shape="poly" coords="200,150,250,200,220,250" href="https://example.com/page3" alt="Link to Page 3">
+    </map>
+</body>
+</html>

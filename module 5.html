@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        dl {
+            padding-left: 20px;
+        }
+        dt {
+            font-weight: bold;
+        }
+        dd {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Lists</h1>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Unordered Lists</h2>
+            <p>An unordered list is a collection of items where the order does not matter. It is created using the <code>&lt;ul&gt;</code> tag, and each item within the list is wrapped in an <code>&lt;li&gt;</code> (list item) tag.</p>
+            <p>Example:</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </section>
+
+        <section>
+            <h2>Ordered Lists</h2>
+            <p>An ordered list is a collection of items where the order does matter. It is created using the <code>&lt;ol&gt;</code> tag, and each item within the list is wrapped in an <code>&lt;li&gt;</code> tag.</p>
+            <p>Example:</p>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+            <pre><code>&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+        </section>
+
+        <section>
+            <h2>Definition Lists</h2>
+            <p>A definition list is a collection of terms and their corresponding definitions. It is created using the <code>&lt;dl&gt;</code> tag. Each term is wrapped in a <code>&lt;dt&gt;</code> (definition term) tag, and each definition is wrapped in a <code>&lt;dd&gt;</code> (definition description) tag.</p>
+            <p>Example:</p>
+            <dl>
+                <dt>HTML</dt>
+                <dd>The standard markup language for creating web pages.</dd>
+                <dt>CSS</dt>
+                <dd>A stylesheet language used for describing the presentation of a document written in HTML.</dd>
+                <dt>JavaScript</dt>
+                <dd>A programming language that enables you to create dynamically updating content, control multimedia, animate images, and much more.</dd>
+            </dl>
+            <pre><code>&lt;dl&gt;
+    &lt;dt&gt;HTML&lt;/dt&gt;
+    &lt;dd&gt;The standard markup language for creating web pages.&lt;/dd&gt;
+    &lt;dt&gt;CSS&lt;/dt&gt;
+    &lt;dd&gt;A stylesheet language used for describing the presentation of a document written in HTML.&lt;/dd&gt;
+    &lt;dt&gt;JavaScript&lt;/dt&gt;
+    &lt;dd&gt;A programming language that enables you to create dynamically updating content, control multimedia, animate images, and much more.&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+        </section>
+
+    </div>
+
+</body>
+</html>

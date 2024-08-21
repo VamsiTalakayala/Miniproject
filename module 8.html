@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+        thead {
+            background-color: #f2f2f2;
+        }
+        tfoot {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        colgroup {
+            background-color: #e2e2e2;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Table Example</h1>
+    
+    <table>
+        <!-- Table Caption -->
+        <caption>Monthly Sales Data</caption>
+        
+        <!-- Column Groups -->
+        <colgroup>
+            <col style="background-color: #d9e1f2;">
+            <col style="background-color: #f2d9d9;">
+            <col style="background-color: #d9f2d9;">
+        </colgroup>
+        
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Sales</th>
+                <th>Profit</th>
+            </tr>
+        </thead>
+        
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$2000</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$1800</td>
+                <td>$450</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>$2200</td>
+                <td>$550</td>
+            </tr>
+        </tbody>
+        
+        <!-- Table Footer -->
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>$6000</td>
+                <td>$1500</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
